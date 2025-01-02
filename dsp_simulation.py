@@ -15,6 +15,7 @@ plt.title('Time Domain Signal')
 plt.xlabel('Time (s)')
 plt.ylabel('Amplitude')
 plt.grid(True)
+plt.savefig('screenshots/time_domain_signal.png')  # Save the plot
 plt.show()
 
 # Perform FFT
@@ -29,7 +30,9 @@ plt.title('Frequency Domain Signal (FFT)')
 plt.xlabel('Frequency (Hz)')
 plt.ylabel('Magnitude')
 plt.grid(True)
+plt.savefig('screenshots/frequency_domain_signal.png')  # Save the plot
 plt.show()
+
 
 #This code Generates a composite sine wave with two frequencies.
 #Visualizes the signal in the time domain.
