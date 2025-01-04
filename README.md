@@ -9,6 +9,7 @@ This project simulates digital signal processing (DSP) techniques using Python. 
 - **Sine Wave Generation:** Creates a composite signal with multiple frequencies.
 - **Fast Fourier Transform (FFT):** Performs frequency domain analysis to extract signal components.
 - **Signal Visualization:** Displays time-domain and frequency-domain representations of signals.
+- **FIR/IIR Filtering**: Filters noisy signals using Finite and Infinite Impulse Response filters.
 - **Extensible Design:** Prepared for enhancements like FIR/IIR filtering and machine learning-based analysis.
 
 ---
@@ -46,12 +47,40 @@ python3 dsp_simulation.py
 ### Frequency Domain Signal (FFT)
 ![Frequency Domain Signal](screenshots/frequency_domain_signal.png)
 
+Time Domain Signal with Filtering
+
+This plot displays the noisy signal (blue) along with the FIR filtered (red) and IIR filtered (green) outputs. Both filters effectively smooth the noise while retaining key signal features.
+
+
+Frequency Domain Signal (FFT)
+
+The FFT of the original signal shows peaks at 50 Hz and 120 Hz, corresponding to the input frequencies.
+
+
+FIR Filtered Signal (FFT)
+
+The FIR filter reduces the 120 Hz component and preserves the 50 Hz component.
+
+
+IIR Filtered Signal (FFT)
+
+The IIR filter demonstrates similar performance, effectively reducing the 120 Hz component.
+
+
+FIR Filter Frequency Response
+
+The FIR filter shows a sharp cutoff at 50 Hz, effectively attenuating higher frequencies.
+
+
+IIR Filter Frequency Response
+
+The IIR filter displays a steeper roll-off, making it highly effective at suppressing high frequencies.
 ---
 
 ## Future Enhancements
-- Implement FIR/IIR filters for real-time signal filtering.
 - Add support for processing live data streams.
 - Incorporate machine learning algorithms for predictive analysis.
+- Develop a GUI interface for parameter selection and visualization.
 
 ---
 
@@ -77,5 +106,4 @@ git push origin feature-branch
 
 ---
 
-This project serves as a foundational tool for demonstrating DSP concepts and skills, making it a strong addition to your portfolio.
 
