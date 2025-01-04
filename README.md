@@ -47,34 +47,30 @@ python3 dsp_simulation.py
 ### Frequency Domain Signal (FFT)
 ![Frequency Domain Signal](screenshots/frequency_domain_signal.png)
 
-Time Domain Signal with Filtering
-
+### Time Domain Signal with Filtering
+![Time Domain Signal with Filtering](screenshots/filtered_signals.png)
 This plot displays the noisy signal (blue) along with the FIR filtered (red) and IIR filtered (green) outputs. Both filters effectively smooth the noise while retaining key signal features.
 
-
-Frequency Domain Signal (FFT)
-
+### Frequency Domain Signal (FFT)
+![Frequency Domain Signal (FFT)](screenshots/frequency_domain_signal.png)
 The FFT of the original signal shows peaks at 50 Hz and 120 Hz, corresponding to the input frequencies.
 
-
-FIR Filtered Signal (FFT)
-
+### FIR Filtered Signal (FFT)
+![FIR Filtered Signal (FFT)](screenshots/fir_filtered_fft.png)
 The FIR filter reduces the 120 Hz component and preserves the 50 Hz component.
 
-
-IIR Filtered Signal (FFT)
-
+### IIR Filtered Signal (FFT)
+![IIR Filtered Signal (FFT)](screenshots/iir_filtered_fft.png)
 The IIR filter demonstrates similar performance, effectively reducing the 120 Hz component.
 
-
-FIR Filter Frequency Response
-
+### FIR Filter Frequency Response
+![FIR Filter Response](screenshots/fir_response.png)
 The FIR filter shows a sharp cutoff at 50 Hz, effectively attenuating higher frequencies.
 
-
-IIR Filter Frequency Response
-
+### IIR Filter Frequency Response
+![IIR Filter Response](screenshots/iir_response.png)
 The IIR filter displays a steeper roll-off, making it highly effective at suppressing high frequencies.
+
 ---
 
 ## Future Enhancements
