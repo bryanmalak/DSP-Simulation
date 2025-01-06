@@ -10,7 +10,7 @@ This project simulates digital signal processing (DSP) techniques using Python. 
 - **Fast Fourier Transform (FFT):** Performs frequency domain analysis to extract signal components.
 - **Signal Visualization:** Displays time-domain and frequency-domain representations of signals.
 - **FIR/IIR Filtering**: Filters noisy signals using Finite and Infinite Impulse Response filters.
-- **Extensible Design:** Prepared for enhancements like FIR/IIR filtering and machine learning-based analysis.
+- **Extensible Design:** Prepared for enhancements like FIR/IIR filtering and machine learning-based analysis. 
 
 ---
 
