@@ -1,7 +1,7 @@
 # DSP Simulation
 
 ## Project Overview
-This project simulates digital signal processing (DSP) techniques using Python. It demonstrates the generation of composite signals, Fast Fourier Transform (FFT) analysis, and visualization of both time-domain and frequency-domain representations. The project highlights skills in Python programming, signal processing, and data visualization.
+This project simulates digital signal processing (DSP) techniques using Python. It demonstrates the generation of composite signals, Fast Fourier Transform (FFT) analysis, and visualization of both time-domain and frequency-domain representations. The project improved my skills in Python programming, signal processing, and data visualization.
 
 ---
 
