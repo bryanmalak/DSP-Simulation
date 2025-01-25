@@ -98,7 +98,7 @@ git push origin feature-branch
 ## Contact Information
 - **Author:** Bryan Malak
 - **GitHub:** [bryanmalak](https://github.com/bryanmalak)
-- **Email:** bvmalak@gmail.com
+- **Email:** bvmalak@gmail.com 
 
 ---
 
